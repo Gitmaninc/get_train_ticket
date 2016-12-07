@@ -12,4 +12,4 @@
     
     toStation = "%u798F%u5DDE%2CFZS"
     
-    ![image](/description_pic/cookie.png)
+    ![image](https://github.com/Gitmaninc/get_train_ticket/blob/master/description_pic/cookie.png)
