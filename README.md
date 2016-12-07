@@ -1,5 +1,5 @@
 0x00
-    python刷票脚本
+    python刷票脚本
     
 0x01
     chrome浏览器驱动 
