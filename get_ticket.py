@@ -14,7 +14,7 @@ passwd = "xxxxxx"
 
 fromStation = "%u5317%u4EAC%2CBJP"
 toStation = "%u798F%u5DDE%2CFZS"
-dtime = "2016-12-20"
+date = "2016-12-20"
 
 train_num = 2  #0表示从上到下依次点击预定
 #urls
@@ -55,7 +55,7 @@ def main():
             b.visit(ticket_url)
             b.cookies.add({"_jc_save_fromStation":fromStation})
             b.cookies.add({"_jc_save_toStation":toStation})
-            b.cookies.add({"_jc_save_fromDate":dtime})
+            b.cookies.add({"_jc_save_fromDate":date})
             b.reload()
             b.find_by_text(u"查询").click();sleep(2)
             b.find_by_text(u"学生").click()    #选择学生票
